@@ -1,0 +1,31 @@
+/* schönere Seitenleiste: */
+
+#rightcol {
+float: right;
+margin: 0;
+padding: 0 10px;
+width: 171px;
+}
+
+/* Schriftart richtig in der Seitenleiste */
+
+#rightcol h3 {
+font-family: ‘Arial,Verdana,Helvetica,Sans-Serif’ !important /* ist hardgecoded Times, #fail */
+}
+
+/* Hauptmenu immer mit rechten grauen Abständen */
+
+#follow #nav1 li {
+background: none repeat scroll 0 0 #FFFFFF;
+border-right: 2px solid #E2E4E5;
+float: left;
+height: 16px;
+line-height: 16px;
+margin: 0;
+padding: 2px 0 2px 9px;
+width: 110px;
+}
+
+#follow #nav1 li#nav176723 {
+border-right: none;
+}
